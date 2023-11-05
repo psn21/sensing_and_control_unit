@@ -21,6 +21,7 @@ void loop() {
     applyDepthSensorCalibration(depth);
     updateOrientation(ax, ay, az, gx, gy, gz, mx, my, mz, roll, pitch, yaw);
     sendOrientation(roll, pitch, yaw);
+    sendDepth(depth);
     break;
   
   case CALIBRATION_MODE:
