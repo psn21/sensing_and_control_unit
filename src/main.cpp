@@ -1,7 +1,6 @@
 #include "main.hpp"
 
 float ax, ay, az, gx, gy, gz, mx, my, mz, depth;
-
 void setup() {
   initializeCommunication();
   initializeIMU();

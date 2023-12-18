@@ -5,4 +5,5 @@
 #include "sensor_interface.hpp"
 #include "thruster_interface.hpp"
 #include <Arduino.h>
+#include <ros.h>
 #endif // MAIN_HPP
